@@ -28,7 +28,7 @@ public class Test5 {
 	@Test(priority = 2, description = "validate the home page url")
 	public void testTwo() {
 		String url = driver.getCurrentUrl();
-		boolean expected = url.contains("WebDriverUniversity");
+		boolean expected = url.contains("webdriveruniversity");
 		Assert.assertEquals(expected, true);
 	}
 	

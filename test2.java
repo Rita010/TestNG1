@@ -2,7 +2,7 @@ package testng1;
 
 import org.testng.annotations.Test;
 
-public class Day2 {
+public class test2 {
 
 	@Test
 	public void testcase2() {
